@@ -1,0 +1,29 @@
+body {
+	font-family: "helvetica", sans-serif;
+	background-color:  #FFFFFF;
+	color: #030613;
+	background-image: url("../images/nike.jpg");
+	background-size: cover;
+
+}
+img {
+  vertical-align: text-top;
+}
+div {
+	position: relative;
+	margin: 0px;
+	color: #FFFFFF;
+	background: #030613;
+	width: 100%;
+	padding-left: 50px;
+	height: 100px;
+	opacity: .75;
+}
+
+#slogan {
+	font-style: italic
+}
+
+.about {
+	float: bottom;
+}
