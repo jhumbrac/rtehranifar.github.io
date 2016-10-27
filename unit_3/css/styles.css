@@ -1,15 +1,13 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: "helvetica", sans-serif;
 	background-color:  #FFFFFF;
 	color: #030613;
-	background-image: url("../images/nike.jpg");
-	background-size: cover;
-
 }
 img {
   vertical-align: text-top;
 }
-div {
+div2 {
 	position: relative;
 	margin: 0px;
 	color: #FFFFFF;
@@ -19,7 +17,18 @@ div {
 	height: 100px;
 	opacity: .75;
 }
-
+#splash {
+	background-image: url("../images/nike.jpg");
+	background-size: cover;
+	color: #fff;
+	/* height:90vh; */
+	/* padding: 3em 0 0 7em; */
+}
+#splash div {
+	background: rgba(128, 0, 128, 0.42);
+	height:90vh;
+	padding:3em 0 0 7em;
+}
 #slogan {
 	font-style: italic
 }
