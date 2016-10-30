@@ -20,14 +20,14 @@ div2 {
 	opacity: .75;
 }
 #splash {
-	background-image: url("../images/nike.jpg");
+	background-image: url("../images/nike2.jpg");
 	background-size: cover;
 	color: #fff;
-	/* height:90vh; */
-	/* padding: 3em 0 0 7em; */
+	 height:90vh; 
+	 /*padding: 3em 0 0 7em; */
 }
 #splash div {
-	background: rgba(90, 76, 90, .53);
+	background: rgba(62, 37, 62, 0.5);
 	height:90vh;
 	padding:3em 0 0 7em;
 }
