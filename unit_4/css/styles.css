@@ -1,6 +1,8 @@
 	* {margin:0;padding:0;box-sizing:border-box;}
+
+
 body {
-	font-family: "helvetica", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	background-color:  #FFFFFF;
 	color: #030613;
 }
@@ -33,4 +35,6 @@ div2 {
 	font-style: italic
 }
 
-
+p, ul{
+	font-family: Vollkorn;
+}
