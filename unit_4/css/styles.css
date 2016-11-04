@@ -1,43 +1,46 @@
-	* {margin:0;padding:0;box-sizing:border-box;}
-
-
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,700');* {margin:0;padding:0;box-sizing:border-box;}
 body {
 	font-family: "Oswald", sans-serif;
 	background-color:  #FFFFFF;
 	color: #030613;
+	font-weight:300;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight:700;
 }
 h1 {
-	padding: 30% .1em 0em  1em;
+	padding: 20% .1em 0em  1em;
 	text-align: right;
 	color: #2D3134;
 	/*padding-right: 3em;*/
 	font-size: 4em;
+	/* background: url("../images/nike2.jpg"); */
+	/* background-size: cover; */
+	/* background-position: center; */
 }
 #slogan{
 	text-align: right;
 	padding: .2em 5em 0em 1em;
 	font-size: 2em;
-	font-style: italic;
-	font-family: Vollkorn;
+	font-weight: 300;
 }
 
 
 #splash {
 	background-image: url("../images/nike2.jpg");
-
 	color: #fff;
- height:80vh; 
-	
+	background-size: cover;
+	background-position: center;
 }
 #splash div{
 	background: rgba(101,100,88,0.48);
-	height:80vh;
+	height: 47vh;
 	/*padding:3em 0 0 7em;*/
 }
 
 
 p, ul{
-	font-family: Vollkorn;
+
 }
 
 .content, #about {
@@ -55,6 +58,9 @@ nav{
 	margin-right: 1.5em;
 	font-size: 1.5em;
 }
-link{
-	padding-right: 5em;
+nav a{
+	padding: .5em 1em;
+	display: inline-block;
+	color:inherit;
+	text-decoration:none;
 }
